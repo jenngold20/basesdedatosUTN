@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F1C3567-86D8-1558-B0E1-44EAF9F184F1" name="TRABAJA">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROYECTO_CODIGO" id="BB29F874-864B-2B2B-9909-CF7A97A53987">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFA0BD4A-34DB-FB11-5FA2-8D61931BD1CF" referredColumn="04B77539-07A5-6DED-83E8-E00EBC1336BE"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_LEGAJO" id="8A76A520-B057-84C7-3997-8827AC780EA2">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D97A4C47-741F-9FFD-460B-929957F530CE" referredColumn="C301B6FA-FC0D-CAF9-699B-2B4B0918AF46"/>
+</associations>
+</Column>
+<Column name="FECHA" id="280C4C31-0CE9-0F2B-64EA-1ED237BEAA78">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>0C2F7973-4861-7CC7-BA09-1235F2F1A5F6</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="OBSERVACION" id="C628961C-095A-88F5-5A12-A4400DD516FE">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>E86DDB1E-6090-14DB-10F0-8FC3F4334AB4</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36B842FA-3E40-1D11-EA78-1144009F7687" name="TRABAJA_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB29F874-864B-2B2B-9909-CF7A97A53987"/>
+<colUsage columnID="8A76A520-B057-84C7-3997-8827AC780EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E200DFE8-D957-E771-F04D-49152DB36642" name="TRABAJA_PROYECTO_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>A4DA4F7D-4203-AB85-3E34-CC3700433DD0</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB29F874-864B-2B2B-9909-CF7A97A53987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B3565D-F588-EDEC-2876-A4121F7226DE" name="TRABAJA_EMPLEADO_FK">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>A4DA4F7D-4203-AB85-3E34-CC3700433DD0</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A76A520-B057-84C7-3997-8827AC780EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

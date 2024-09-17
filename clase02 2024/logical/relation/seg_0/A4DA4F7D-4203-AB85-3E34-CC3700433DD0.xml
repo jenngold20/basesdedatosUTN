@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRABAJA" directorySegmentName="seg_0" id="A4DA4F7D-4203-AB85-3E34-CC3700433DD0">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:55:44 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>400E5306-B2F5-6BF8-85E8-96C98DFAED68</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ADA00EB0-5A9C-8E5A-489F-5A2AC7D66F74</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="FECHA" id="0C2F7973-4861-7CC7-BA09-1235F2F1A5F6">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:58:27 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="OBSERVACION" id="E86DDB1E-6090-14DB-10F0-8FC3F4334AB4">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:35 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

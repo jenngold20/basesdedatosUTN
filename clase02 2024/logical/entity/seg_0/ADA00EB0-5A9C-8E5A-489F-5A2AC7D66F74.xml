@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADA00EB0-5A9C-8E5A-489F-5A2AC7D66F74" name="EMPLEADO">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:28:05 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LEGAJO" id="C3AB03A7-5CF9-4491-44CC-8059FCACD045">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:28:35 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="C0076038-5328-36D4-F0F3-102C7A984057">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:34:38 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="0CEEAB6B-39A9-1CE9-6931-CD513D7E26D2">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:53:25 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIMIENTO" id="096A2337-3476-3A3F-C2A3-B99643C6781A">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:53:52 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F094F6F-E2D7-4DA4-08F6-39C2EF84C680" name="EMPLEADO PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:29:28 UTC</createdTime>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<engineerTo>
+<item key="9C2C220C-A975-7DBC-8481-6367CEC8F5F7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3AB03A7-5CF9-4491-44CC-8059FCACD045</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

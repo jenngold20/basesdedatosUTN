@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61F52620-761E-DB63-4229-8D829BFEDB9F" name="EMPLEADO">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>ADA00EB0-5A9C-8E5A-489F-5A2AC7D66F74</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LEGAJO" id="C301B6FA-FC0D-CAF9-699B-2B4B0918AF46">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>C3AB03A7-5CF9-4491-44CC-8059FCACD045</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="3BAD9F89-C33B-A594-132E-DFDDB00CEB15">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>C0076038-5328-36D4-F0F3-102C7A984057</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4B58B3A1-341D-B994-5FD0-841D239A9DF6">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>0CEEAB6B-39A9-1CE9-6931-CD513D7E26D2</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="7F0A1FE7-8407-F619-F738-7DA6D4084128">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>096A2337-3476-3A3F-C2A3-B99643C6781A</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3D37CE1-6D10-9A2B-660A-DE619C423927" name="EMPLEADO_PK">
+<createdBy>Lucas</createdBy>
+<createdTime>2024-09-17 13:59:54 UTC</createdTime>
+<generatorID>2F094F6F-E2D7-4DA4-08F6-39C2EF84C680</generatorID>
+<ownerDesignName>clase02 2024</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C301B6FA-FC0D-CAF9-699B-2B4B0918AF46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
